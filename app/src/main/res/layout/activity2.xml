@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_box1"
+            style="@style/checkbox_style" />
+
+        <TextView
+            android:id="@+id/tview1"
+            style="@style/text_style3"
+            android:text="@string/ing1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_box2"
+            style="@style/checkbox_style"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tview2"
+            style="@style/text_style3"
+            android:text="@string/ing2"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/ch_box3"
+            style="@style/checkbox_style" />
+
+        <TextView
+            android:id="@+id/tview3"
+            style="@style/text_style3"
+            android:text="@string/ing3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_box4"
+            style="@style/checkbox_style" />
+
+        <TextView
+            android:id="@+id/tview4"
+            style="@style/text_style3"
+            android:text="@string/ing4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_box5"
+            style="@style/checkbox_style" />
+
+        <TextView
+            android:id="@+id/tview5"
+            style="@style/text_style3"
+            android:text="@string/ing5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_box6"
+            style="@style/checkbox_style" />
+
+        <TextView
+            android:id="@+id/tview6"
+            style="@style/text_style3"
+            android:text="@string/ing6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_box7"
+            style="@style/checkbox_style" />
+
+        <TextView
+            android:id="@+id/tview7"
+            style="@style/text_style3"
+            android:text="@string/ing7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ch_box8"
+            style="@style/checkbox_style" />
+
+        <TextView
+            android:id="@+id/tview8"
+            style="@style/text_style3"
+            android:text="@string/ing8" />
+    </LinearLayout>
+
+</LinearLayout>
